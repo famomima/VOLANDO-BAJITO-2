@@ -76,6 +76,9 @@ li {
   background-color: #5CCC52;
   color: white; }
 
+.footer-basic-products{
+  margin-top: 1600px;
+}
 
 .footer-basic--marcas {
   margin-top: 9rem; }
@@ -310,3 +313,27 @@ li {
   color: #5CCC52; }
 
 
+@media only screen 
+and (min-device-width : 359px) 
+and (max-device-width : 736px){
+  .footer-basic-products{
+    margin-top: 2500px;
+  }
+  
+}
+@media only screen 
+and (min-device-width : 319px) 
+and (max-device-width : 736px){
+.footer-basic-products{
+margin-top: 2500px;
+}
+}
+
+@media only screen 
+and (min-device-width : 767px) 
+and (max-device-width : 1023px){
+  .footer-basic-products{
+    margin-top: 2500px;
+  }
+  
+}
